@@ -6,7 +6,7 @@ var vSplit = 0.5;
 var hSplit = 0.5
 
 function rect_(x, y, w, h) {
-  rect(x+border, y+border, w - 2*border, h - 2*border);
+  rect(x+border, y+border, w - 2*border, h - 2*border, border);
 }
 
 var palette;
