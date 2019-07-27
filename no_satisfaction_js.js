@@ -82,6 +82,9 @@ function setup() {
 
   noStroke();
   var tree = new BinaryNode(p_init, 0, 2, width/2 - l/2, (height - l)/2, l, l);
+  
+  stroke(color("#000099"));
+  strokeWeight(border);
 }
 
 
